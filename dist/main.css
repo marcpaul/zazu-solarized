@@ -27,12 +27,10 @@ section#zazu input {
 }
 section#zazu iframe#preview {
   border: 0;
-  color: #f0f;
 }
 section#zazu div.results {
   display: flex;
   flex-direction: row;
-  color: #cb4b16;
 }
 section#zazu div.results ul {
   padding: 0;
@@ -56,6 +54,7 @@ section#zazu div.results ul li {
   -webkit-app-region: no-drag;
   cursor: pointer;
   width: 100%;
+  color: #cb4b16;
 }
 section#zazu div.results ul li .icon {
   color: #93a1a1;
