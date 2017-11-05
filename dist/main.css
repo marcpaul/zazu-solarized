@@ -6,7 +6,7 @@ body {
   font-size: 20px;
   font-family: 'Roboto', 'Helvetica Neue', 'Sans Unicode', 'Lucida Grande', sans-serif;
   background-color: #073642;
-  color: #f0f;
+  border-radius: 2px;
 }
 section#zazu {
   background-color: #07333f;
@@ -27,6 +27,7 @@ section#zazu input {
 }
 section#zazu iframe#preview {
   border: 0;
+  background-color: #2aa198;
 }
 section#zazu div.results {
   display: flex;
