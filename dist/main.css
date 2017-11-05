@@ -83,7 +83,6 @@ section#zazu {
         section#zazu div.results ul li h2 {
           font-size: 20px;
           line-height: 25px;
-          font-weight: bold;
           color: #268bd2; }
           section#zazu div.results ul li h2:last-child {
             font-size: 20px;
@@ -94,8 +93,7 @@ section#zazu {
           color: #268bd2; }
         section#zazu div.results ul li:hover, section#zazu div.results ul li.active {
           background: #d33682;
-          border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 7px rgba(0, 0, 0, 0.1), inset 0 -2px 0 #073642; }
+          border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
         section#zazu div.results ul li:focus {
           outline: 0; }
         section#zazu div.results ul li:first-child {
