@@ -31,6 +31,7 @@ section#zazu iframe#preview {
 section#zazu div.results {
   display: flex;
   flex-direction: row;
+  background: #2aa198;
 }
 section#zazu div.results ul {
   padding: 0;
