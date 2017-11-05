@@ -27,8 +27,6 @@ section#zazu input {
 }
 section#zazu iframe#preview {
   border: 0;
-}
-section#zazu iframe#preview body pre.text {
   color: #f0f;
 }
 section#zazu div.results {
@@ -67,7 +65,7 @@ section#zazu div.results ul li .icon {
   width: 30px;
   margin: 7.5px;
   float: left;
-  opacity: 0.75;
+  opacity: 0.85;
 }
 section#zazu div.results ul li h2,
 section#zazu div.results ul li h3 {
