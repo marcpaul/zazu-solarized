@@ -35,10 +35,8 @@ section#zazu {
     border: 0;
     cursor: auto;
     width: 100%;
-    background-size: 25px 25px;
-    background-position: center right;
-    background-repeat: no-repeat;
-    background-position-x: 540px; }
+    background: transparent;
+    -webkit-app-region: no-drag; }
   section#zazu iframe#preview {
     border: 0;
     background: #2aa198;
