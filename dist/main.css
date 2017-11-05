@@ -90,6 +90,7 @@ section#zazu div.results ul li h3 {
 section#zazu div.results ul li.active {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   tap-highlight-color: rgba(0,0,0,0);
+  outline: none;
   background-color: #0a5062;
   color: #268bd2;
 }
@@ -99,6 +100,8 @@ section#zazu div.results ul li.active h3 {
 }
 section#zazu div.results ul li:hover {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
+  tap-highlight-color: rgba(0,0,0,0);
+  outline: none;
   background-color: #0a5062;
   color: #268bd2;
 }
