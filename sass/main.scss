@@ -54,8 +54,10 @@ section#zazu {
     border: 0;
     cursor: auto;
     width: 100%;
-    background: transparent;
-    -webkit-app-region: no-drag;
+    background-size: 25px 25px;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-position-x: 540px;
   }
 
   iframe#preview {
