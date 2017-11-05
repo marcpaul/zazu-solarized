@@ -25,7 +25,7 @@ section#zazu {
   font-weight: 300;
   box-shadow: 0 0 0; }
   section#zazu > div {
-    background: #fdf6e3;
+    background: #073642;
     border-radius: 2px; }
   section#zazu input {
     outline: none;
@@ -44,7 +44,7 @@ section#zazu {
   section#zazu div.results {
     display: flex;
     flex-direction: row;
-    background: #2aa198;
+    background: #073642;
     border-radius: 0 0 2px 2px; }
     section#zazu div.results ul {
       padding: 0;
@@ -90,9 +90,9 @@ section#zazu {
         section#zazu div.results ul li h3 {
           font-weight: normal;
           font-size: 15px;
-          color: #6c71c4; }
+          color: #268bd2; }
         section#zazu div.results ul li:hover, section#zazu div.results ul li.active {
-          background: #fdf6e3;
+          background: #6c71c4;
           border-bottom: 1px solid rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 7px rgba(0, 0, 0, 0.1), inset 0 -2px 0 #073642; }
         section#zazu div.results ul li:focus {

@@ -40,7 +40,7 @@ section#zazu {
   box-shadow: 0 0 0;
 
   > div {
-    background: $color-bright;
+    background: $color-primary;
     border-radius: $radius;
   }
 
@@ -65,7 +65,7 @@ section#zazu {
   div.results {
     display: flex;
     flex-direction: row;
-    background: #2aa198;
+    background: $color-primary;
     border-radius: 0 0 $radius $radius;
 
     ul {
@@ -126,11 +126,11 @@ section#zazu {
         h3 {
           font-weight: normal;
           font-size: 15px;
-          color: #6c71c4;
+          color: #268bd2;
         }
 
         &:hover, &.active {
-          background: $color-bright;
+          background: #6c71c4;
           border-bottom: 1px solid rgba(0, 0, 0, .1);
           box-shadow: 0 0 7px rgba(0, 0, 0, .1), inset 0 -2px 0 $color-primary;
         }
