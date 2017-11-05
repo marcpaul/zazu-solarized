@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 section#zazu div.results ul li:after {
   content: "";
   display: table;
@@ -32,13 +32,13 @@ section#zazu {
   background-size: 60px;
   -webkit-app-region: drag;
   cursor: move;
-  border-radius: 2px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  border: 4px solid rgba(0, 0, 0, 0.17);
+  border-radius: 3px;
+  font-family: 'Open Sans', sans-serif;
   box-shadow: 0 0 0; }
   section#zazu > div {
-    background: #fdf6e3;
-    border-radius: 2px; }
+    background: #FFF;
+    border-radius: 3px; }
   section#zazu input {
     outline: none;
     font-size: 40px;
@@ -54,13 +54,13 @@ section#zazu {
     background-position-x: 540px; }
   section#zazu iframe#preview {
     border: 0;
-    background: #2aa198;
+    background: #E1E1E1;
     box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.1); }
   section#zazu div.results {
     display: flex;
     flex-direction: row;
-    background: #2aa198;
-    border-radius: 0 0 2px 2px; }
+    background: #f9f9f9;
+    border-radius: 0 0 3px 3px; }
     section#zazu div.results ul {
       padding: 0;
       margin: 0;
@@ -73,7 +73,7 @@ section#zazu {
         width: 50%; }
       section#zazu div.results ul li {
         display: block;
-        border-bottom: 1px solid #93a1a1;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
         -webkit-app-region: no-drag;
         cursor: pointer;
         width: 100%;
@@ -95,7 +95,8 @@ section#zazu {
         section#zazu div.results ul li h2 {
           font-size: 20px;
           line-height: 25px;
-          color: #268bd2; }
+          font-weight: bold;
+          color: #212121; }
           section#zazu div.results ul li h2:last-child {
             font-size: 20px;
             line-height: 45px; }
@@ -104,9 +105,9 @@ section#zazu {
           font-size: 15px;
           color: #6A6A6A; }
         section#zazu div.results ul li:hover, section#zazu div.results ul li.active {
-          background: #fdf6e3;
+          background: #FFF;
           border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 7px rgba(0, 0, 0, 0.1), inset 0 -2px 0 #073642; }
+          box-shadow: 0 0 7px rgba(0, 0, 0, 0.1), inset 0 -2px 0 #0481FF; }
         section#zazu div.results ul li:focus {
           outline: 0; }
         section#zazu div.results ul li:first-child {
