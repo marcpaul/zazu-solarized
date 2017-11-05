@@ -1,0 +1,18 @@
+{
+  "name": "zazu-solarized",
+  "version": "1.0.0",
+  "description": "A solarized inspired theme for Zazu.",
+  "scripts": {
+    "preversion": "npm run build && git add .",
+    "postversion": "git push && git push --tags",
+    "bump": "npm version patch -m 'v%s'",
+    "start": "stylus src/main.styl -o dist -w",
+    "build": "stylus src/main.styl -o dist"
+  },
+  "author": "marcpaul",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "stylus": "^0.54.5"
+  }
+}
