@@ -1,4 +1,3 @@
-magenta #d33682,
 html,
 body {
   margin: 0;
@@ -23,9 +22,7 @@ section#zazu input {
   background-color: transparent;
   -webkit-app-region: no-drag;
   cursor: auto;
-}
-section#zazu input.mousetrap {
-  color: #f0f;
+  color: #d33682;
 }
 section#zazu iframe#preview {
   border: 0;
