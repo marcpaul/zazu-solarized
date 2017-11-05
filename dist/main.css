@@ -3,24 +3,24 @@ body {
   margin: 0;
   padding: 0;
   font-size: 20px;
-  font-family: 'Helvetica Neue', 'Sans Unicode', 'Lucida Grande', sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', 'Sans Unicode', 'Lucida Grande', sans-serif;
 }
 section#zazu {
-  background-color: #212121;
+  background-color: #07333f;
   -webkit-app-region: drag;
   cursor: move;
 }
 section#zazu input {
   font-weight: 300;
   outline: none;
-  font-size: 40px;
+  font-size: 30px;
   width: 500px;
   padding: 12px;
   border: 0;
   background-color: transparent;
   -webkit-app-region: no-drag;
   cursor: auto;
-  color: rgba(255,255,255,0.9);
+  color: #fdf6e3;
 }
 section#zazu iframe#preview {
   border: 0;
@@ -28,11 +28,12 @@ section#zazu iframe#preview {
 section#zazu div.results {
   display: flex;
   flex-direction: row;
+  color: #cb4b16;
 }
 section#zazu div.results ul {
   padding: 0;
   margin: 0;
-  border-top: 1px solid #202020;
+  border-top: 1px solid #06313b;
   max-height: 333px;
   overflow: hidden;
   width: 50%;
@@ -47,13 +48,13 @@ section#zazu div.results ul li {
   display: block;
   height: 45px;
   line-height: 45px;
-  border-bottom: 1px solid #202020;
+  border-bottom: 1px solid #06313b;
   -webkit-app-region: no-drag;
   cursor: pointer;
   width: 100%;
 }
 section#zazu div.results ul li .icon {
-  color: #e6e6e6;
+  color: #93a1a1;
   text-align: center;
   line-height: 30px;
   height: 30px;
@@ -66,7 +67,7 @@ section#zazu div.results ul li h2,
 section#zazu div.results ul li h3 {
   margin: 0;
   padding-left: 10px;
-  color: #e6e6e6;
+  color: #93a1a1;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -75,7 +76,7 @@ section#zazu div.results ul li h3 {
 section#zazu div.results ul li h2 {
   font-size: 20px;
   line-height: 25px;
-  color: #d4d4d4;
+  color: #869696;
 }
 section#zazu div.results ul li h2:last-child {
   font-size: 20px;
@@ -86,14 +87,14 @@ section#zazu div.results ul li h3 {
   line-height: 15px;
 }
 section#zazu div.results ul li.active {
-  background-color: #353535;
-  color: #fff;
+  background-color: #0a5062;
+  color: #268bd2;
 }
 section#zazu div.results ul li.active h2,
 section#zazu div.results ul li.active h3 {
-  color: #fff;
+  color: #268bd2;
 }
 section#zazu div.results ul li:hover {
-  background-color: #353535;
-  color: #fff;
+  background-color: #0a5062;
+  color: #268bd2;
 }
