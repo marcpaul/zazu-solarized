@@ -12,6 +12,7 @@ section#zazu {
 }
 section#zazu > + div {
   background: #073642;
+  border-radius: 2px;
 }
 section#zazu input {
   font-weight: 300;
