@@ -30,6 +30,21 @@ html, body {
   height: 100%;
 }
 
+body.playbook {
+  background: #4D6A45 url(https://unsplash.it/1000/1000/?blur) no-repeat center center;
+  background-size: cover;
+}
+
+#install {
+  color: #FFF;
+  background: rgba(0, 0, 0, .7);
+  border-radius: 0 0 3px 3px;
+  padding: 5px 20px;
+  h2 {
+    font-size: 24px;
+  }
+}
+
 section#zazu {
   background-position: 530px 5px;
   background-repeat: no-repeat;
@@ -112,14 +127,11 @@ section#zazu {
           white-space: nowrap;
           overflow: hidden;
           text-overflow: ellipsis;
-          font-family: 'Roboto', sans-serif;
-          font-weight: 300;
         }
 
         h2 {
           font-size: 20px;
           line-height: 25px;
-          font-weight: bold;
           color: #268bd2;
           &:last-child {
             font-size: 20px;
@@ -130,7 +142,7 @@ section#zazu {
         h3 {
           font-weight: normal;
           font-size: 15px;
-          color: #6c71c4;
+          color: #6A6A6A;
         }
 
         &:hover, &.active {
