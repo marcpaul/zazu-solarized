@@ -61,7 +61,6 @@ section#zazu
         -webkit-app-region no-drag
         cursor pointer
         width 100%
-        color orange
 
         .icon
           color resultColor
@@ -81,11 +80,11 @@ section#zazu
           overflow hidden
           text-overflow ellipsis
           font-weight 300
+          font-family 'Roboto', 'Helvetica Neue', 'Sans Unicode', 'Lucida Grande', sans-serif
 
         h2
           font-size 20px
           line-height 25px
-          color darken(resultColor, 8%)
           &:last-child
             font-size 20px
             line-height 45px
@@ -95,10 +94,12 @@ section#zazu
           line-height 15px
 
         &.active
+          -webkit-tap-highlight-color: rgba(0,0,0,0);
           background-color lighten(primary, 8%)
           color blue
           h2, h3
             color blue
         &:hover
+          -webkit-tap-highlight-color: rgba(0,0,0,0);
           background-color lighten(primary, 8%)
           color blue

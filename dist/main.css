@@ -55,7 +55,6 @@ section#zazu div.results ul li {
   -webkit-app-region: no-drag;
   cursor: pointer;
   width: 100%;
-  color: #cb4b16;
 }
 section#zazu div.results ul li .icon {
   color: #93a1a1;
@@ -76,11 +75,11 @@ section#zazu div.results ul li h3 {
   overflow: hidden;
   text-overflow: ellipsis;
   font-weight: 300;
+  font-family: 'Roboto', 'Helvetica Neue', 'Sans Unicode', 'Lucida Grande', sans-serif;
 }
 section#zazu div.results ul li h2 {
   font-size: 20px;
   line-height: 25px;
-  color: #869696;
 }
 section#zazu div.results ul li h2:last-child {
   font-size: 20px;
@@ -91,6 +90,7 @@ section#zazu div.results ul li h3 {
   line-height: 15px;
 }
 section#zazu div.results ul li.active {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
   background-color: #0a5062;
   color: #268bd2;
 }
@@ -99,6 +99,7 @@ section#zazu div.results ul li.active h3 {
   color: #268bd2;
 }
 section#zazu div.results ul li:hover {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
   background-color: #0a5062;
   color: #268bd2;
 }
