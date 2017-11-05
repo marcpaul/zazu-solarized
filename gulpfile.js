@@ -5,7 +5,6 @@ var inlineimage = require('gulp-inline-image');
 
 gulp.task('build', function () {
   return gulp.src('./sass/**/*.scss')
-    .pipe(inlineimage())
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./dist'));
 });
