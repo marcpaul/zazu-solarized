@@ -44,7 +44,7 @@ section#zazu {
   section#zazu div.results {
     display: flex;
     flex-direction: row;
-    background: #073642;
+    background: #2aa198;
     border-radius: 0 0 2px 2px; }
     section#zazu div.results ul {
       padding: 0;
