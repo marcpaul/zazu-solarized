@@ -8,6 +8,9 @@ body {
   background-color: #073642;
   color: #f0f;
 }
+pre.text {
+  color: #f0f;
+}
 section#zazu {
   background-color: #07333f;
   -webkit-app-region: drag;
