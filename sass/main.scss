@@ -6,7 +6,7 @@ $gutter: 20px;
 $transition-speed: .3s;
 $radius: 2px;
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
 
 %clearfix {
   &:after {
@@ -26,6 +26,7 @@ html, body {
   font-size: 20px;
   overflow: hidden;
   height: 100%;
+  text-rendering: optimizeLegibility;
 }
 
 section#zazu {
@@ -36,7 +37,7 @@ section#zazu {
   cursor: move;
   border-radius: $radius;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   box-shadow: 0 0 0;
 
   > div {
@@ -110,7 +111,7 @@ section#zazu {
           overflow: hidden;
           text-overflow: ellipsis;
           font-family: 'Roboto', sans-serif;
-          font-weight: 300;
+          font-weight: 400;
         }
 
         h2 {
@@ -130,7 +131,7 @@ section#zazu {
         }
 
         &:hover, &.active {
-          background: rgba(210, 54, 130, 0.8);
+          background: rgba(210, 54, 130, 0.9);
           border-bottom: 1px solid rgba(0, 0, 0, .1);
         }
 
