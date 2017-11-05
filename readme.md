@@ -2,6 +2,7 @@
 
 A solarized inspired theme for Zazu written in Stylus
 
+![Screenshot](./images/zazu-solarized.png)
 
 ## Installing
 
