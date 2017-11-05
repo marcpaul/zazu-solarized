@@ -52,13 +52,14 @@ section#zazu {
     border: 0;
     cursor: auto;
     width: 100%;
+    color: $color-bright;
     background: transparent;
     -webkit-app-region: no-drag;
   }
 
   iframe#preview {
     border: 0;
-    background: #2aa198;
+    background: #eee8d5;
     box-shadow: inset 2px 2px 4px rgba(0, 0, 0, .1);
   }
 
@@ -85,7 +86,7 @@ section#zazu {
 
       li {
         display: block;
-        border-bottom: 1px solid #93a1a1;
+        border-bottom: 1px solid #002b36;
         -webkit-app-region: no-drag;
         cursor: pointer;
         width: 100%;
@@ -130,7 +131,7 @@ section#zazu {
         }
 
         &:hover, &.active {
-          background: #6c71c4;
+          background: #d33682;
           border-bottom: 1px solid rgba(0, 0, 0, .1);
           box-shadow: 0 0 7px rgba(0, 0, 0, .1), inset 0 -2px 0 $color-primary;
         }
