@@ -28,7 +28,7 @@ section#zazu input {
 section#zazu iframe#preview {
   border: 0;
 }
-section#zazu iframe#preview pre.text {
+section#zazu iframe#preview body pre.text {
   color: #f0f;
 }
 section#zazu div.results {
