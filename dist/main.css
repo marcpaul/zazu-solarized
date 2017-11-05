@@ -23,7 +23,7 @@ section#zazu input {
   background-color: transparent;
   -webkit-app-region: no-drag;
   cursor: auto;
-  color: #fdf6e3;
+  color: #f0f;
 }
 section#zazu iframe#preview {
   border: 0;
