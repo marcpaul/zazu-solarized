@@ -94,8 +94,7 @@ section#zazu {
           color: #268bd2; }
         section#zazu div.results ul li:hover, section#zazu div.results ul li.active {
           background: rgba(210, 54, 130, 0.9);
-          border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-          color: #073642; }
+          border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
         section#zazu div.results ul li:focus {
           outline: 0; }
         section#zazu div.results ul li:first-child {

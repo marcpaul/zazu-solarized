@@ -1,5 +1,10 @@
 $color-primary:   #073642;
+$color-secondary: #002b36;
 $color-bright: #fdf6e3;
+$color-preview-background: #eee8d5;
+$color-result: #268bd2;
+$color-hover-background: rgba(210, 54, 130, 0.9);
+$color-near-transparent: rgba(0, 0, 0, .1);
 
 $transparency: .1;
 $gutter: 20px;
@@ -60,8 +65,8 @@ section#zazu {
 
   iframe#preview {
     border: 0;
-    background: #eee8d5;
-    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, .1);
+    background: $color-preview-background;
+    box-shadow: inset 2px 2px 4px $color-near-transparent;
   }
 
   div.results {
@@ -87,7 +92,7 @@ section#zazu {
 
       li {
         display: block;
-        border-bottom: 1px solid #002b36;
+        border-bottom: 1px solid $color-secondary;
         -webkit-app-region: no-drag;
         cursor: pointer;
         width: 100%;
@@ -117,7 +122,7 @@ section#zazu {
         h2 {
           font-size: 20px;
           line-height: 25px;
-          color: #268bd2;
+          color: $color-result;
           &:last-child {
             font-size: 20px;
             line-height: 45px;
@@ -127,13 +132,12 @@ section#zazu {
         h3 {
           font-weight: normal;
           font-size: 15px;
-          color: #268bd2;
+          color: $color-result;
         }
 
         &:hover, &.active {
-          background: rgba(210, 54, 130, 0.9);
-          border-bottom: 1px solid rgba(0, 0, 0, .1);
-          color: $color-primary;
+          background: $color-hover-background;
+          border-bottom: 1px solid $color-near-transparent;
         }
 
         &:focus {
@@ -141,7 +145,7 @@ section#zazu {
         }
 
         &:first-child {
-          border-top: 1px solid rgba(0, 0, 0, .1);
+          border-top: 1px solid $color-near-transparent;
         }
 
         &:last-child {
