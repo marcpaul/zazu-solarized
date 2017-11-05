@@ -133,6 +133,7 @@ section#zazu {
         &:hover, &.active {
           background: rgba(210, 54, 130, 0.9);
           border-bottom: 1px solid rgba(0, 0, 0, .1);
+          color: $color-primary;
         }
 
         &:focus {
