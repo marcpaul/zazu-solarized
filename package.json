@@ -2,17 +2,16 @@
   "name": "zazu-solarized",
   "version": "1.0.0",
   "description": "A solarized inspired theme for Zazu.",
+  "main": "gulpfile.js",
   "scripts": {
-    "preversion": "npm run build && git add .",
-    "postversion": "git push && git push --tags",
-    "bump": "npm version patch -m 'v%s'",
-    "start": "stylus src/main.styl -o dist -w",
-    "build": "stylus src/main.styl -o dist"
+    "build": "gulp build"
   },
   "author": "marcpaul",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "stylus": "^0.54.5"
+    "gulp": "^3.9.1",
+    "gulp-inline-image": "0.0.5",
+    "gulp-sass": "^2.3.1"
   }
 }
