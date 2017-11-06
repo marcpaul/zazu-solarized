@@ -21,6 +21,7 @@ section#zazu {
   background-size: 60px;
   -webkit-app-region: drag;
   cursor: move;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 2px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;

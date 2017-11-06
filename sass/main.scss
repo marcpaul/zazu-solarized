@@ -40,6 +40,7 @@ section#zazu {
   background-size: 60px;
   -webkit-app-region: drag;
   cursor: move;
+  border: 1px solid $color-near-transparent;
   border-radius: $radius;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
