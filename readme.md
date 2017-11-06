@@ -2,7 +2,13 @@
 
 A solarized inspired theme for Zazu.
 
-![Screenshot](./images/zazu-solarized.png)
+## Screenshots
+
+#### Main view
+![Screenshot](./images/zazu-solarized-finder.png)
+
+#### Clipboard View
+![Screenshot](./images/zazu-solarized-clips.png)
 
 ## Installing
 
