@@ -1,6 +1,6 @@
 ## Solarized Theme
 
-A solarized inspired theme for Zazu written in Stylus
+A solarized inspired theme for Zazu.
 
 ![Screenshot](./images/zazu-solarized.png)
 
