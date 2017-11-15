@@ -5,10 +5,10 @@ A solarized inspired, dark theme for Zazu.
 ## Screenshots
 
 #### Main view
-![Screenshot](./images/zazu-solarized-finder.png)
+![Screenshot](./images/solarized_dark_1.png)
 
 #### Clipboard View
-![Screenshot](./images/zazu-solarized-clips.png)
+![Screenshot](./images/solarized_dark_2.png)
 
 ## Installing
 
