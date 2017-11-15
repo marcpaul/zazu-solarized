@@ -1,6 +1,6 @@
-## Solarized Theme
+## Solarized Dark Theme
 
-A solarized inspired theme for Zazu.
+A solarized inspired, dark theme for Zazu.
 
 ## Screenshots
 
@@ -12,11 +12,11 @@ A solarized inspired theme for Zazu.
 
 ## Installing
 
-Add `marcpaul/zazu-solarized` to your `~/.zazurc.json` file.
+Add `marcpaul/zazu-solarized-dark-theme` to your `~/.zazurc.json` file.
 
 ```json
 {
-  "theme": "marcpaul/zazu-solarized"
+  "theme": "marcpaul/zazu-solarized-dark-theme"
 }
 ```
 

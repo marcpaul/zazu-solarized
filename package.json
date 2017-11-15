@@ -1,7 +1,7 @@
 {
-  "name": "zazu-solarized",
-  "version": "1.0.0",
-  "description": "A solarized inspired theme for Zazu.",
+  "name": "zazu-solarized-dark-theme",
+  "version": "1.0.1",
+  "description": "A solarized inspired, dark theme for Zazu.",
   "main": "gulpfile.js",
   "scripts": {
     "build": "gulp build"
